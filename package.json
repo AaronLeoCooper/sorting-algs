@@ -1,0 +1,22 @@
+{
+  "name": "sorting-algs",
+  "version": "1.0.0",
+  "description": "A collection of sorting algorithm implementations in JS",
+  "main": "index.js",
+  "repository": "https://github.com/AaronLeoCooper/sorting-algs",
+  "author": "Aaron Leo Cooper <aaronleocooper@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.15.3",
+    "eslint-config-alc": "1.3.0",
+    "jest": "24.5.0"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "prompts": "2.0.4"
+  }
+}
