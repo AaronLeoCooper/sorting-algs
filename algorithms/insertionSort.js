@@ -6,9 +6,9 @@ const swapElements = require('../utils/swapElements');
  * putting them into the correct position if they are less than the element before
  * them.
  *
- * This sorting mechanism improves on Bubble sort, but not by a huge amount on average.
+ * This sorting mechanism only slightly improves on Bubble sort.
  *
- * Average time complexity: O(n*2)
+ * Average time complexity: O(n^2)
  *
  * @param arr {Object[]}
  * @param sortField {string}

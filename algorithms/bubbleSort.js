@@ -8,7 +8,7 @@ const swapElements = require('../utils/swapElements');
  * This sorting algorithm is on average one of the slowest possible algorithms to
  * use because of the copious number of loops required over the entire array.
  *
- * Average & worst time complexity: O(n^2)
+ * Average time complexity: O(n^2)
  *
  * @param arr {Object[]}
  * @param sortField {string}
