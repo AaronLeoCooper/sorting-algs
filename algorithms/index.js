@@ -18,5 +18,10 @@ module.exports = [
     value: 'mergeSort',
     title: 'Merge sort',
     sort: require('./mergeSort')
+  },
+  {
+    value: 'quickSort',
+    title: 'Quick sort',
+    sort: require('./quickSort')
   }
 ];
